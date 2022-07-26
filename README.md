@@ -28,8 +28,8 @@ PORT=<YOUR PORT> ./restapisample
 3. Curl it!
 
 ```
-curl -X GET http://localhost:8080/job/01G8XJ74WR5FPT8GAWT44ECEGA
-curl -X POST http://localhost:8080/job  -d '{"title": "the title, "company": "the company"}'
+curl -X GET http://localhost:8080/jobs/01G8XJ74WR5FPT8GAWT44ECEGA
+curl -X POST http://localhost:8080/jobs  -d '{"title": "the title, "company": "the company"}'
 ...
 ```
 
